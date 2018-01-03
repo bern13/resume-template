@@ -933,7 +933,7 @@ color: yellow;
 }
 
 .testimonial-item {
-  text-align: center;
+  text-align: left;
 }
 
 .testimonial-item img {
@@ -956,26 +956,8 @@ color: yellow;
   border-radius: 0%;
 }
 
-.testimonial-item .testimonial-text h3 {
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.testimonial-item .testimonial-text span {
-  font-size: 14px;
-  color: #999;
-}
-
-.testimonial-item .testimonial-text p {
-  font-size: 14px;
-  font-weight: 400;
-  padding: 36px 10px 30px 10px;
-  margin: 0;
-  line-height: 30px;
-}
-
 .owl-theme .owl-controls .owl-page span {
-  background: #D5DBE0;
+  background: black;
 }
 
 .owl-theme .owl-controls {
