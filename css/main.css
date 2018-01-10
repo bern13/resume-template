@@ -257,9 +257,11 @@ button:focus {
   font-size: 16px;
 }
 
+
 .social-icons ul li a:hover {
   color: #fff;
 }
+
 
 .facebook a {
   color: #4867AA;
@@ -815,7 +817,7 @@ color: yellow;
 
 
 #pricing {
-  background: url(../img/bckgrnd_2.jpg) fixed no-repeat;
+  background: url(https://lh3.googleusercontent.com/P4i2v3YRGsk9d0XlY0irKN2fF4pylRJaR74tf1xxqJnHeKhYOMgkwjEKSQzmLPUMwTjKuDzF_WRXxcu4AuMKetvLHzp3nZdX4--UtI3uh5r_T8dAusshI4SPzhVSdiZgYsREd3ElojlgTGorQEbUxK7lMOiCW52kbvBRu0U_7wJDtL3Ra6V8b-PPrYm6srsrXOXJhY_0RUEFeiG3_vZD0dtFYQhGDVEvL0ToPhHmwV2Y35n3Xg-oXa8xd8c5KQTqtULoFPEl_hzK3FEte-DLOggaZEjFEe7lkTBWtXYshLHTgPi_TbgcYt13h-UXjBmVva_4_Vlh6OwxWdk1ZrwA57uLYsduNLXIgG3csTMR1jelXrGERrgn6vHyiyXmS5_mJ8-k311ain13t_6ZjpKzY2VvDiIZqwnvGbor-YX5fEJqRIUd0aAojlGp4FGlXDrvZGgIZVW-ia6DHmMYhInDA46h7ai1kFIMhMSXZiBAlhSyUS4uc28ZRacagGZJ_5abdzHyv9XlWfmR7ZMnMFbMo0Fxl0jUgXeptP9Tg9L7SSV1lTFQdMON8x4WOIyjX0ZBsDjPlxpMdh3sYGpZnJowAMHxFkfdFb-yKCG0raI=w1029-h579-no) fixed no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -840,14 +842,47 @@ color: yellow;
   position: relative;
 }
 
-.testimonial-item {
-  text-align: left;
+#pricing .testimonial-item {
+  text-align: center;
 }
 
-.testimonial-item img {
-  width: 90px;
+#pricing .testimonial-item img {
+  width: 37%;
   border: 3px solid #fff;
   border-radius: 70%;
+  text-align: center;
+  margin:0 auto;
+}
+
+#pricing .testimonial-text {
+  color:black;
+  padding: 20px;
+  background-color: white;
+  height: 500px;
+  font-family: verdana;
+
+}
+
+.social-icons-testi ul li a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #ddd;
+
+}
+
+.social-icons-testi .linkedin a:hover {
+  background: #007BB6;
+}
+
+.social-icons-testi ul li a:hover {
+  color: #fff;
 }
 
 
