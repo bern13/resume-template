@@ -130,6 +130,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-weight: 400;
 }
 
+.section-header .section-subtitle-portfolio {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px auto; /* center element horizontally */
+  text-align: justify;
+  width: 70%;
+}
+
 .section-header .lines {
   margin: auto;
   width: 70px;
@@ -349,13 +358,13 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #333;
+  background: white;
   z-index: 9999999999;
 }
 
 .spinner {
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   top: 45%;
   position: relative;
   margin: 0px auto;
@@ -711,23 +720,9 @@ color: yellow;
    ========================================================================== */
 #portfolios .mix {
   padding: 10px;
+    display: none;
 }
 
-
-#portfolios .portfolio-item{
-  margin: 0px;
-  top:0px;
-  text-align: center;
-  border-radius: 0px;
-  background: #f1f1f1;
-  padding: 30px;
-  width: 100%;
-  display:inline-block;
-}
-
-#portfolio .mix {
-  display: none;
-}
 
 
 .controls {
@@ -755,67 +750,19 @@ color: yellow;
   border-color: #EBECED
 }
 
-.portfolio-img {
+#portfolio .worklogo img {
   overflow: hidden;
   display: block;
   position: relative;
+  width: 40%;
+}
+
 }
 
 .portfolio-img img {
   width: 20%;
 }
 
-.job-item {
-  margin-right: 0px;
-  background: #fff;
-  top : 0px;
-}
-
-.job-item img {
-  width: 100%;
-  height: 20%;
-}
-
-.shot-item {
-  border-radius: 4px;
-  background: #fff;
-  position: relative;
-   text-align: center;
-}
-
-.shot-item img {
-  width: 20%;
-  height: 20%;
-  padding: 40px;
-  background-color: #f1f1f1;
-}
-
-.review {
-   position: absolute;
-  text-align: center; 
-   top: 0px; 
-   left: 0; 
-   width: 100%;
-   color: white; 
-   padding:10px;
-   font-family: 'Poppins', sans-serif;
-   font-weight: normal ;
-}
-
-.shot-item .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.7);
-  top: 0%;
-  left: 0;
-}
-
-.shot-item:hover .overlay {
-  opacity: 1;
-}
 
 .overlay .item-icon {
   height: 48px;
@@ -858,18 +805,7 @@ color: yellow;
 /* ==========================================================================
 	9. Pricing Table
 	========================================================================== */
-.pricing-table {
-  padding: 0px 0px 40px 0px;
-  margin: 0 auto;
-  margin-bottom: 5px;
-  border: transparent;
-  text-align: center;
-  background-color: #FFFFFF;
-  border: 1px solid #f1f1f1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
+
 
 #pricing {
   background: url(../img/bckgrnd_2.jpg) fixed no-repeat;
@@ -879,41 +815,6 @@ color: yellow;
   overflow: hidden;
 }
 
-.pricing-table:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-#pricing .section-header h2 {
-  color: white;
-}
-
-.pricing-table .pricing-details h2 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  background: #f1f1f1;
-  padding: 30px 0;
-}
-
-.pricing-table .pricing-details span {
-  display: inline-block;
-  font-size: 48px;
-  font-weight: 400;
-  color: #D5DBE0;
-  margin-bottom: 20px;
-}
-
-.pricing-table .pricing-details ul {
-  margin-bottom: 35px;
-}
-
-.pricing-table .pricing-details ul li {
-  padding: 10px;
-  font-size: 15px;
-  border-bottom: 1px dotted #f1f1f1;
-}
 
 .table-left {
   margin-top: 20px;
@@ -942,116 +843,11 @@ color: yellow;
   border-radius: 70%;
 }
 
-.ntu-item img {
-    width: 230px;
-  border: 20px solid #fff;
-  height: 140px;
-  border-radius: 20%;
-}
-
-.goo-item img {
-  width: 210px;
-  border: 3px solid #fff;
-  height: 150px;
-  border-radius: 0%;
-}
-
-.owl-theme .owl-controls .owl-page span {
-  background: black;
-}
-
-.owl-theme .owl-controls {
-  margin-top: 20px;
-}
 
 /* ==========================================================================
   12. Team Section
    ========================================================================== */
-.single-team:hover .team-details {
-  opacity: 1;
-}
 
-.single-team {
-  position: relative;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 0px;
-  background: #D5DBE0;
-  overflow: hidden;
-}
-
-.single-team img {
-  width: 100%;
-}
-
-.single-team .team-inner {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-team .team-details {
-  text-align: center;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 0px;
-  background: #f1f1f1;
-  padding: 15px;
-}
-
-.single-team .team-details .team-title {
-  margin-bottom: 5px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #333;
-}
-
-.single-team .team-details p {
-  color: #333;
-}
-
-.single-team .social-list li {
-  display: inline-block;
-}
-
-.single-team .social-list li a {
-  display: block;
-  height: 34px;
-  line-height: 34px;
-  text-align: center;
-  width: 34px;
-  margin: 2px;
-  color: black;
-  font-size: 14px;
-  background: #fff;
-  border-radius: 50px;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-team .social-list .facebook a:hover {
-  background: #4867aa;
-  color: #fff;
-}
-
-.single-team .social-list .twitter a:hover {
-  background: #1da1f2;
-  color: #fff;
-}
-
-.single-team .social-list .google-plus a:hover {
-  background: #dd4d42;
-  color: #fff;
-}
-
-.single-team .social-list .linkedin a:hover {
-  background: #007bb6;
-  color: #fff;
-}
-
-.fa-linkedin 
 
 .meta-tags {
   margin-bottom: 20px;
@@ -1094,46 +890,6 @@ color: yellow;
   padding:20px;
 }
 
-
-
-.form-control {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 14px;
-  border-color: #fff;
-  border-radius: 0px;
-  color: #fff;
-  background: transparent;
-  font-size: 14px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  color: #fff;
-  border-color: #D5DBE0;
-  background: transparent;
-  outline: none;
-}
-
-.btn.disabled, .btn:disabled {
-  opacity: 1;
-}
-
-.text-danger {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.list-unstyled li {
-  color: #d9534f;
-}
-
-.lnr-pointer-up {
-  font-size: 32px;
-}
 
 /* ==========================================================================
 15. Footer Style
