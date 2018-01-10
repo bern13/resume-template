@@ -136,7 +136,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-weight: 400;
   margin: 20px auto; /* center element horizontally */
   text-align: justify;
-  width: 70%;
+  width: 80%;
 }
 
 .section-header .lines {
@@ -626,6 +626,11 @@ button:focus {
   .slicknav_nav .dropdown li a.active {
     color: #D4D2D2;
   }
+      .wow{
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+
 }
 
 
@@ -755,6 +760,8 @@ color: yellow;
   display: block;
   position: relative;
   width: 40%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 }
