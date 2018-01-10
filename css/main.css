@@ -441,7 +441,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/bckgrndpic_tr.jpg) fixed no-repeat;
+  background: url(https://image.ibb.co/h0PXsR/bckgrndpic_tr.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -844,6 +844,7 @@ color: yellow;
 
 #pricing .testimonial-item {
   text-align: center;
+  padding-top: 20px;
 }
 
 #pricing .testimonial-item img {
